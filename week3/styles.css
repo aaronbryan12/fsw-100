@@ -1,0 +1,49 @@
+h1 {
+    color: Blue;
+}
+#table {
+    border: 3px solid black;
+}
+#table {
+    width:100%;
+    border-collapse: collapse;
+}
+#FirstName {
+    height:50px;
+    border: 1px solid black;
+}
+#LastName {
+    height:50px;
+    border: 1px solid black;
+}
+#Savings {
+    height:50px;
+    border: 1px solid black;
+}
+#Peter {
+    border: 1px solid black;
+}
+#Griffin {
+    border: 1px solid black;
+}
+#SVM {
+    border :1px solid black;
+}
+#Luis {
+    border:1px solid black;
+}
+#Griffin {
+    border: 1px solid black;
+}
+#EVM {
+    border:1px solid black;
+}
+#Brian {
+    border:1px solid black;
+}
+#Griffin {
+    border:1px solid black;
+}
+#MO {
+    border:1px solid black;
+}
