@@ -1,0 +1,37 @@
+.the-Cold-War {
+    color: blue;
+}
+.the-civil-rights-movement {
+    color: Blue;
+}
+.the-growth-of-the-international-drug-trade {
+    color: Blue;
+}
+.parent > li {
+    background-color: green;
+}
+h1 {
+    color: green;
+    font-family: Georgia
+}
+h1 {
+    text-align:center
+}
+h3 {
+    text-align:center
+}
+h3 {
+    font-family: Georgia
+}
+.parent > p {
+    text-transform: uppercase;
+}
+.parent > a {
+    text-decoration: none;
+}
+.parent > a:hover {
+    text-decoration:underline
+}
+.parent > img src = CIA-Director- {
+    image float: left
+}
