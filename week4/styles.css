@@ -1,0 +1,97 @@
+.navbar {
+    position:fixed;
+    margin: 60px;
+    background-color:red;
+    background-position: top;
+}
+#home {
+    position:relative;
+    left: 200px
+}
+#menu {
+    position:relative;
+    left:500px;
+}
+#about{
+    position:relative;
+    left: 800px
+}
+#article1 {
+    border: 1px;
+    padding-bottom: 35px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    background-color: blue;
+}
+#article2 {
+    border: 1px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    background-color: blue;
+}
+#article3 {
+    border: 1px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    background-color: blue;
+}
+#article4 {
+    border: 1px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    background-color: blue;
+}
+#article1 > img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#article2 > img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#article3 > img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#article4 > img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.boxmodel1 {
+    margin: auto;
+    width:50%;
+    border: 10px solid black; 
+    padding: 50px;
+    background-color: aquamarine;
+}
