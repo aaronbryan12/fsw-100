@@ -1,97 +1,86 @@
-.navbar {
-    position:fixed;
-    margin: 60px;
-    background-color:red;
-    background-position: top;
+#new {
+    color: black;
+    font-size: 50px;
 }
-#home {
+#search {
+    background-color:rgba(255, 251, 251, 0.877);
+    color: black;
+    width: 100%;
+    position: relative;
+    left: 700px;
+}
+.table {
+    border: 3px solid black;
+    width:100%;
+}
+.newmusic {
     position:relative;
-    left: 200px
+    right: 100px;
 }
-#menu {
-    position:relative;
-    left:500px;
+html {
+    background-color: cornflowerblue;
 }
-#about{
-    position:relative;
-    left: 800px
+#studio1 {
+    position: relative;
+
+    width:250px; 
 }
-#article1 {
-    border: 1px;
-    padding-bottom: 35px;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
-    background-color: blue;
+#studio2 {
+    position: relative;
+    left:800px;
+    width:250px;
 }
-#article2 {
-    border: 1px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
-    background-color: blue;
+#image2 {
+    width:400px;
+    height:300px;
 }
-#article3 {
-    border: 1px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
-    background-color: blue;
+#image1 {
+    width:400px;
+    height:300px;
 }
-#article4 {
-    border: 1px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
-    background-color: blue;
+#image3 {
+    width:400px;
+    height:300px;
 }
-#article1 > img {
-    float: left;
-    width: 200px;
-    height: 200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+#releases {
+   text-align:center;
+   font-size: 65px;
+   font-family: times ;
 }
-#article2 > img {
-    float: left;
-    width: 200px;
-    height: 200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+#table2 {
+    border: 5px;
+    width:30%;
+    border-collapse:collapse;
+
 }
-#article3 > img {
-    float: left;
-    width: 200px;
-    height: 200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+#artist {
+    border: 6px solid black;
 }
-#article4 > img {
-    float: left;
-    width: 200px;
-    height: 200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+#title {
+    border: 6px solid black;
 }
-.boxmodel1 {
-    margin: auto;
-    width:50%;
-    border: 10px solid black; 
-    padding: 50px;
-    background-color: aquamarine;
+#release {
+    border: 6px solid black;
+}
+#publish {
+    border: 6px solid black;
+}
+.MCR > th {
+    border: 2px solid black;
+}
+.Sans > th {
+    border:2px solid black;
+}
+.Conner > th {
+    border:2px solid black;
+}
+.Lit > th {
+    border:2px solid black;
+}
+#paragraph2 {
+    border-radius: 50%;
+    font-size: 25px;
+}
+#conner {
+    word-spacing: 400px;
 }
