@@ -58,11 +58,4 @@
     grid-column: 4/5;
 }
 
-@media (max-width: 768px;) {
-    
-    .grid-container {
-        display:grid;
-    }
-
-
-}
+@media (max-width: 768px) {
