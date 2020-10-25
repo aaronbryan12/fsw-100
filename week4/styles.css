@@ -6,7 +6,7 @@
     background-color:rgba(255, 251, 251, 0.877);
     color: black;
     width: 100%;
-    position: relative;
+    position: fixed;
     left: 700px;
 }
 .table {
@@ -16,6 +16,9 @@
 .newmusic {
     position:relative;
     right: 100px;
+}
+#firstp {
+    padding: 15px;
 }
 html {
     background-color: cornflowerblue;
@@ -51,6 +54,7 @@ html {
     border: 5px;
     width:30%;
     border-collapse:collapse;
+    
 
 }
 #artist {
@@ -80,6 +84,7 @@ html {
 #paragraph2 {
     border-radius: 50%;
     font-size: 25px;
+    padding:30px;
 }
 #conner {
     word-spacing: 400px;
