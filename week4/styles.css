@@ -25,13 +25,15 @@ html {
 }
 #studio1 {
     position: relative;
-
+    padding: 20px;
     width:250px; 
 }
 #studio2 {
     position: relative;
-    left:800px;
+    left:700px;
     width:250px;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
 #image2 {
     width:400px;
