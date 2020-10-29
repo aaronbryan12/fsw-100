@@ -6,7 +6,7 @@
 .item1 {
     background-color: #f5c6d6;
     height: 100;
-    /* grid-row: 1; */
+    grid-row: 1;
     grid-column: 1/5
 }
 .item2 {
