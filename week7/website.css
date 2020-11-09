@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+html {
+    background: rgb(241,240,231);
+    background: linear-gradient(19deg, rgba(241,240,231,1) 73%, rgba(238,127,102,1) 100%);
+}
+#new {
+    color: black;
+    font-size: 50px;
+    background: whitesmoke
+}
+#search {
+    color: black;
+    width: 60%;
+    position: fixed;
+    left: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    transition: width 2s linear 1s;
+
+}
+.About {
+    margin: 15px;
+    float: center;
+}
+#search:hover {
+    width:300px;
+}
+#search a {
+    text-decoration: none; 
+    color: black;
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+}
+.table {
+    background-color: whitesmoke;
+    font-size: 20px;
+    border: 3px solid black;
+    width:100%;
+    color: rgb(0, 176, 255)  
+}
+.newmusic {
+    position:relative;
+    right: 100px;
+}
+#website {
+    font-size: 25px;
+}
+#studio1 {
+    width: auto;
+}
+#studio2 {
+    position:relative;
+    margin: 20px;
+    width: 60%; 
+    left: 225px;
+}
+#image2 {
+    width:400px;
+}
+#image1 {
+    width:400px;
+}
+#image3 {
+    width:400px;
+}
+#newartist {
+   text-align:center;
+   font-size: 65px;
+   font-family: times ;
+   background: rgb(241,240,231);
+   background: linear-gradient(19deg, rgba(241,240,231,1) 73%, rgba(238,127,102,1) 100%);
+}
+.table2 {
+    border: 10px;
+    padding:25px;
+    width:450px;
+    height: 300px;
+    border-collapse:collapse;
+    margin:20px;
+    margin-left: 420px;
+    margin-top: 20px;
+}
+#artist {
+    border: 6px solid black;
+}
+#title {
+    border: 6px solid black;
+}
+#release {
+    border: 6px solid black;
+}
+#publish {
+    border: 6px solid black;
+}
+.MCR > th {
+    border: 2px solid black;
+}
+.Sans > th {
+    border:2px solid black;
+}
+.Conner > th {
+    border:2px solid black;
+}
+.Lit > th {
+    border:2px solid black;
+}
+#paragraph2 {
+    font-size: 25px;
+    padding:30px;
+    background: rgb(241,240,231);
+    background: linear-gradient(19deg, rgba(241,240,231,1) 73%, rgba(238,127,102,1) 100%);;
+}
+#conner {
+    word-spacing: 400px;
+}
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    justify-content: center;
+    margin-left: 200px;
+}
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    margin-left: 400px;
+    border:15px;
+    padding: 30px;
+    font-size: 30px;
+    flex-direction: column-reverse;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #318bc7;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #318bc7;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+@media only screen and (min-width: 600px) {
+    html {
+        background-color: whitesmoke;
+    }
+    #newartist {
+        text-align:center;
+        font-size: 65px;
+        font-family: times ;
+        color: black
+     }
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        background-color: cornflowerblue;
+    }
+    #newartist {
+        text-align:center;
+        font-size: 65px;
+        font-family: times ;
+        color:whitesmoke
+     }
+
+}
+
+@media only screen and (min-width: 900px) {
+    html {
+        background-color: whitesmoke;
+    }
+    #newartist {
+        text-align:center;
+        font-size: 65px;
+        font-family: times ;
+        color: black
+     }
+}
